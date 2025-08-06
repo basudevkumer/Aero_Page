@@ -1,0 +1,48 @@
+.navlogo {
+  width: 50%;
+}
+.downloadIcon {
+  margin-right: 27px;
+  font-size: 25px;
+}
+.downloadButton {
+  padding: 13px 52px;
+  background-color: #ea580c;
+  color: #fff;
+  font-family: "REM", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  border-radius: 20px;
+}
+.downloadButton:hover {
+  color: #fff;
+  background-color: #ea580c;
+}
+.navText {
+  font-size: 16px;
+  font-weight: 400;
+  position: relative;
+  font-family: "ABeeZee", sans-serif;
+  padding: 0 !important;
+  text-decoration: none;
+}
+
+.navText:hover {
+  color: #ea580c !important;
+}
+.navText::after {
+  position: absolute;
+  content: "";
+  width: 0%;
+  height: 2.5px;
+  background-color: #ea580c;
+  bottom: -3.5px;
+  left: 0;
+  transition: 0.3s ease-in-out;
+}
+.navText:hover::after {
+  width: 100%;
+}
+.navMain {
+  gap: 70px;
+}
